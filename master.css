@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Input';
+  src: url("InputMono/InputMono-Regular.ttf");
+}
+
+*{
+  font-family: 'Input', monospace;
+}
+
+video{
+  width: 900px;
+  height: 300px;
+  padding-top: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 24px;
+  background-color: white;
+  border: 1px solid black;
+}
+#myBtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; 
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

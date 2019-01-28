@@ -21,13 +21,14 @@ video{
   text-align: center;
   padding: 15px;
   font-size: 24px;
-  background-color: white;
   border: 1px solid black;
-  width: 80px;
+  width: 100px;
   text-decoration: none;
   color: Black;
 }
-
+a:hover{
+  background-color: yellow;
+}
 button{
   display: block;
   margin: 0 auto;
@@ -45,6 +46,7 @@ button{
 
 button:hover{
   cursor: pointer;
+  background-color: yellow
 }
 
 .modal {
@@ -80,4 +82,21 @@ button:hover{
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.bubble{
+  height: auto;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.border{
+  display: block;
+  border: 1px solid;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 45px;
 }

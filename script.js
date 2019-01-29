@@ -1,8 +1,4 @@
-/*function openModal() {
-  var info = document.getElementsByClassName('infoBox')
-  info.stylesheet.display = "block"
-}*/
-// Get the modal
+
 var modal = document.getElementById('myModal');
 
 // Get the button that opens the modal
@@ -27,3 +23,28 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function playSound() {
+  document.getElementsByClassName("bop").
+
+}
+
+
+
+
+
+/*var option = document.querySelector('.next');
+var video = document.querySelector('.personalspace')
+video.onended = function() {
+  option.style.display = "block";
+
+}*/
+
+
+
+
+/*function showOption() {
+  var option = document.querySelector('.next').style.display;
+  option.style.display = "block"
+  alert("click next")
+}*/

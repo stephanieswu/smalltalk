@@ -5,6 +5,7 @@
 
 *{
   font-family: 'Input', monospace;
+  font-weight: light;
 }
 
 video{
@@ -15,19 +16,21 @@ video{
   margin: 0 auto;
 }
 
+
 .enter{
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 15px;
   font-size: 24px;
-  border: 1px solid black;
+  border: 2px solid black;
   width: 100px;
   text-decoration: none;
   color: Black;
 }
 a:hover{
-  background-color: yellow;
+  background-color: #F5D56F  ;
+
 }
 button{
   display: block;
@@ -42,11 +45,12 @@ button{
   top: 0;
   right: 0;
   border: none;
+  margin: 5px;
 }
 
 button:hover{
   cursor: pointer;
-  background-color: yellow
+  background-color:#F5D56F ;
 }
 
 .modal {
@@ -94,7 +98,7 @@ button:hover{
 
 .border{
   display: block;
-  border: 1px solid;
+  border: 2px solid;
   width: 600px;
   height: 600px;
   margin: 0 auto;

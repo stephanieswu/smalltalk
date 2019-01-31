@@ -24,11 +24,6 @@ window.onclick = function(event) {
   }
 }
 
-function playSound() {
-  document.getElementsByClassName("bop").
-
-}
-
 
 
 

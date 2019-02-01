@@ -23,23 +23,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
-
-
-
-/*var option = document.querySelector('.next');
-var video = document.querySelector('.personalspace')
-video.onended = function() {
-  option.style.display = "block";
-
-}*/
-
-
-
-
-/*function showOption() {
-  var option = document.querySelector('.next').style.display;
-  option.style.display = "block"
-  alert("click next")
-}*/

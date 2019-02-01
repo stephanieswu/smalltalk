@@ -28,6 +28,23 @@ video{
   text-decoration: none;
   color: Black;
 }
+
+#next{
+  display:none;
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  border: 2px solid;
+  padding: 5px;
+}
+
+.option{
+  display: block;
+  text-align: center;
+  margin: 10px 78px;
+  border: 2px solid;
+  padding: 5px;
+}
 a:hover{
   background-color: #F5D56F  ;
 

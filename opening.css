@@ -1,4 +1,6 @@
-
+*{
+  font-size: 18px;
+}
 
 .home{
   float: right ;
@@ -8,7 +10,7 @@
 .video{
   display: block;
   margin: 0 auto;
-  margin-top:30px;
+  margin-top:25px;
   width: 425px;
   height: 425px;
   border: 2px solid;
@@ -35,21 +37,9 @@ ul{
   padding: 10px;
 }
 
-.option{
-  display: block;
-  text-align: center;
-  margin: 10px 78px;
-  border: 2px solid;
-  padding: 5px;
-}
 
-.next{
-  display:block;
-  text-align: center;
-  margin: 10px 550px;
-  border: 2px solid;
-  padding: 5px;
-}
+
+
 
 a{
   text-decoration: none;

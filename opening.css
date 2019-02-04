@@ -24,6 +24,16 @@
   padding: 0;
 }
 
+.opening{
+  display: block;
+  margin: 0 auto;
+  margin-top:70px;
+  width: 425px;
+  height: 425px;
+  border: 2px solid;
+}
+
+
 .bub{
   width: 500px;
   display: block;

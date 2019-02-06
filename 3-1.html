@@ -13,12 +13,17 @@
           <div class="video">
              <video src="animations/subway2-1.mp4" autoplay class="personalspace" onended="showOption()"> </video>
           </div>
-              <ul>
-            <!-- OPTIONS -->
-                <li class="option"><a href="4-2.html">sure! where to?</a></li>
 
-              </ul>
+            <!-- OPTIONS -->
+                <li id="7"class="option"><a href="4-2.html">sure! where to?</a></li>
+
+
         </div>
-      <script src="test.js" charset="utf-8"></script>
+        <script>
+        function showOption() {
+          var one= document.getElementById('7');
+          one.style.display = "block"
+          }
+        </script>
       </body>
   </html>

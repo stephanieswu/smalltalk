@@ -17,14 +17,17 @@
           <div class="video">
              <video src="animations/home.mp4" autoplay class="personalspace" onended="showOption()"> </video>
           </div>
-            <!--<img src="svg/personalbubble4.png" alt="" class="bub">-->
-              <ul>
             <!-- OPTIONS -->
-                <li class="option"><a href="2-1.html">hey! how was your weekend?</a></li>
-                <li class="option"><a href="2-2.html">smile and nod</a></li>
-              </ul>
-        </div>
+                <li id="1"class="option"><a href="2-1.html">hey! how was your weekend?</a></li>
+                <li id="2"class="option"><a href="2-2.html">smile and nod</a></li>
 
-      <script src="test.js" charset="utf-8"></script>
+        </div>
+            <script>
+            function showOption() {
+              var one= document.getElementById('1');
+              var two= document.getElementById('2');
+              one.style.display = "block"
+              two.style.display = "block"}
+            </script>
       </body>
   </html>

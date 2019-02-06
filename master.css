@@ -40,7 +40,7 @@ video{
 }
 
 .option{
-  display: block;
+  display: none;
   text-align: center;
   margin: 10px 78px;
   border: 2px solid;

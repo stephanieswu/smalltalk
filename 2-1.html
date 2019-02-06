@@ -13,12 +13,18 @@
           <div class="video">
              <video src="animations/home2-1.mp4" autoplay class="personalspace" onended="showOption()"> </video>
           </div>
-              <ul>
+
             <!-- OPTIONS -->
-            <li class="option"><a href="3-1.html">hey karen, how are you and tim?</a></li>
-            <li class="option"><a href="3-2.html">hey, how was your weekend?</a></li>
-              </ul>
+            <li id="3"class="option"><a href="3-1.html">hey karen, how are you and tim?</a></li>
+            <li id="4"class="option"><a href="3-2.html">hey, how was your weekend?</a></li>
+
         </div>
-      <script src="script.js" charset="utf-8"></script>
+        <script>
+        function showOption() {
+          var one= document.getElementById('3');
+          var two= document.getElementById('4');
+          one.style.display = "block"
+          two.style.display = "block"}
+        </script>
       </body>
   </html>

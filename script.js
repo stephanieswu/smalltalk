@@ -23,3 +23,11 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function restart() {
+  window.location.href = "1.html"
+}
+
+function next() {
+  window.location.href = "6-2.html"
+}
